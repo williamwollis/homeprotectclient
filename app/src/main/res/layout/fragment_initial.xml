@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.auth.InitialFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/initialText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:padding="14dp"
+        android:textColor="@color/main"
+        android:textSize="30sp"
+        android:text="@string/initial_message" />
+    <LinearLayout
+        android:layout_below="@id/initialText"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_height="match_parent">
+    <EditText
+        android:layout_width="300dp"
+
+        android:layout_height="50dp"
+        android:id="@+id/ipAddress"
+        android:background="@drawable/custom_edittext"
+        android:drawableLeft="@drawable/baseline_ip_24dp"
+        android:drawablePadding="8dp"
+        android:hint="@string/ip_address"
+        android:padding="8dp"
+        android:textColor="@color/black"
+        android:textColorHighlight="@color/cardview_dark_background"
+        android:layout_marginTop="40dp"/>
+        <androidx.appcompat.widget.SwitchCompat
+            android:id="@+id/ipButton"
+            android:layout_width="wrap_content"
+            android:text="@string/use_standard_ip"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="30dp"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:showText="false"
+            app:track="@drawable/track_backgrounds" />
+        <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/switchButton"
+        android:layout_width="wrap_content"
+        android:text="@string/camera_device"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="30dp"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:showText="false"
+        app:track="@drawable/track_backgrounds" />
+        <androidx.appcompat.widget.SwitchCompat
+            android:id="@+id/askButton"
+            android:layout_width="wrap_content"
+            android:text="@string/login_automatically"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="30dp"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:showText="false"
+            app:track="@drawable/track_backgrounds" />
+
+</LinearLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="40dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_height="60dp"
+        android:id="@+id/initialButton"
+        android:text="@string/enter"
+        android:textSize="18sp"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="@color/main"
+        app:cornerRadius = "20dp"/>
+
+
+</RelativeLayout>

@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">homeprotect-client</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_settings">Settings</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="e_mail">E-mail</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="not_yet_register">Not yet registered? <u><b>Sign up</b></u></string>
+    <string name="register">Sign Up</string>
+    <string name="have_account_already">Have an account already? <u><b>Login</b></u></string>
+    <string name="loading">Services are loading. Wait please.</string>
+    <string name="initial_message"><b>Hello! Please enter initial settings to setup application</b></string>
+    <string name="ip_address">IP-address</string>
+    <string name="camera_device"><b>Camera Device</b>    </string>
+    <string name="login_automatically"><b>Login automatically</b> </string>
+    <string name="use_standard_ip"><b>Use standard ip</b>   </string>
+    <string name="enter">Enter</string>
+</resources>
